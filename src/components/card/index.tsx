@@ -7,7 +7,7 @@ interface CardProps {
 
 
 const Card = ({ scanner, style }: CardProps) => {
-    const statStyle = { display: 'flex', width: '100%', justifyContent: 'space-between', alignItems: 'center' };
+    const statStyle = { display: 'flex', width: '100%', justifyContent: 'space-between', alignItems: 'center', cursor: 'pointer' };
 
     return (
         <Link
